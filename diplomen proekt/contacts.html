@@ -1,0 +1,70 @@
+<html lang="bg">
+<head>
+<meta charset="utf-8" />
+<title>Контакти - Детска градина "Здравец"</title>
+<meta name="keywords" content="детска градина, контакти, Правец, адрес, връзка" />
+<meta name="description" content="Контактна информация с детска градина Здравец" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="style-sidebar.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="script.js"></script>
+</head>
+<body>
+<div id="banner" align="center">
+<a href="index.html">
+<img src="images/logo.jpg" alt="Лого на детска градина Здравец" width="225" height="225" /></a>
+<img src="images/header.webp" alt="Банер" width="700" height="225" />
+</div>
+<div id="menu" align="center">
+	<ul>
+		<li><a href="index.html">Начало</a></li>
+		<li><a href="menu.html">Меню</a></li>
+		<li><a href="faq.html">ЧЗВ</a></li>
+		<li><a href="schedule.html">Програма</a></li>
+		<li><a href="admission.html">Прием</a></li>
+		<li class="first"><a href="contacts.html">Контакти</a></li>
+	</ul>
+</div>
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h2 class="title" align="center">Свържете се с нас</h2><br />
+			<p>
+			Адрес: ул. "Христо Ботев" № 6, гр.Правец<br />
+			Директор: Силвия Станева<br />
+			Телефон: +359 879 496 119<br />
+			Имейл: odz_zdravec_pravec@abv.bg
+			</p>
+			<br />
+			<h3>Изпратете ни съобщение</h3>
+			<form action="submit_contacts.php" method="POST">
+				<label for="name">Име:</label><br />
+				<input type="text" id="name" name="name" required><br /><br />
+
+				<label for="email">Имейл:</label><br />
+				<input type="email" id="email" name="email" required><br /><br />
+
+				<label for="message">Съобщение:</label><br />
+				<textarea id="message" name="message" rows="5" cols="40" required></textarea><br /><br />
+
+				<input type="submit" value="Изпрати">
+			</form>
+		</div>
+	</div>
+
+	<div id="sidebar" margin-left: 200px>
+		<ul>
+			<li>
+				<h2>Полезни връзки</h2>
+				<h4><a href="https://mon.bg/">Министерство на образованието и науката</a></h4>
+				<h4><a href="https://pravets.bg/">Община Правец</a></h4>
+			</li>
+		</ul>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<footer>
+	<p class="credit">@2025 Детска градина "Здравец"</a></p>
+</footer>
+</body>
+</html>
